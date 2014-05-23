@@ -83,7 +83,7 @@
 /* Environment information */
 #define CONFIG_EXTRA_ENV_SETTINGS \
 	DEFAULT_LINUX_BOOT_ENV \
-	"fdtfile=overo.dtb\0" \
+	"fdtfile=omap3-overo-storm-tobi.dtb\0" \
 	"bootdir=/boot\0" \
 	"bootfile=zImage\0" \
 	"usbtty=cdc_acm\0" \
