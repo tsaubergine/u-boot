@@ -260,7 +260,7 @@ const omap3_sysinfo sysinfo = {
 	MUX_VAL(CP(MCSPI1_SIMO),	(IEN  | PTD | DIS | M0)) /*McSPI1_SIMO */\
 	MUX_VAL(CP(MCSPI1_SOMI),	(IEN  | PTD | DIS | M0)) /*McSPI1_SOMI */\
 	MUX_VAL(CP(MCSPI1_CS0),		(IEN  | PTD | EN  | M0)) /*McSPI1_CS0*/\
-	MUX_VAL(CP(MCSPI1_CS1),		(IDIS | PTD | EN  | M0)) /*McSPI1_CS1*/\
+	MUX_VAL(CP(MCSPI1_CS1),		(IEN  | PTD | EN  | M4))  /*GPIO_175*/\
 	MUX_VAL(CP(MCSPI1_CS2),		(IEN  | PTU | DIS | M4)) /*GPIO_176 */\
 								 /* - LAN_INTR */\
 	MUX_VAL(CP(MCSPI1_CS3),		(IEN  | PTD | DIS | M3)) /*HSUSB2_DATA2*/\
